@@ -34,7 +34,7 @@ MACHINE = "raspberrypi3"
 
 # For Raspberry Pi, uncomment the following block:
 RPI_USE_U_BOOT = "1"
-MENDER_PARTITION_ALIGNMENT_KB = "4096"
+MENDER_PARTITION_ALIGNMENT = "4194304"
 MENDER_BOOT_PART_SIZE_MB = "40"
 IMAGE_INSTALL_append = " kernel-image kernel-devicetree"
 IMAGE_FSTYPES_remove += " rpi-sdimg"
